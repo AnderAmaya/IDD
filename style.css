@@ -1,0 +1,28 @@
+body{
+    background: blue;
+}
+h1{
+    background: lightblue;
+    color: black;
+}
+#show_sketch{
+    float: right;
+}
+canva{
+    border: 5px solid darkblue;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes exampel{
+    from { box-shadow: 1px 1px 38px lightgreen;}
+    to { box-shadow: 1px 1px 38px darkgreen;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: aqua;
+    background: limegreen;
+}
